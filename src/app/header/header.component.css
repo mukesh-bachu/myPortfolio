@@ -1,0 +1,46 @@
+.header1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(9, 10, 10);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+
+  }
+  
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; 
+    font-size: 22px;
+    padding: auto;
+}
+
+nav ul li:last-child {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+    color: #007bff; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+    cursor: pointer; /* Change cursor on hover */
+}
